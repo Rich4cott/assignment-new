@@ -1,0 +1,220 @@
+html{
+  background-color: #ffffff;
+}
+body{
+  background-color: #ffffff;
+  padding: 1em;
+  font-family: arial;
+  display: flow-root;
+  grid-template-columns: 40% 60%;
+  grid-auto-rows: auto;
+  grid-template-areas: "header header"
+                       "Nav main aside"
+                       "footer footer"
+}
+
+
+
+
+
+
+header {
+background-color:gray;
+color: #adebeb;
+text-align: center;
+padding: 10px;
+grid-area: header;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  background-color:#70dbdb;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: flex;
+  letter-spacing: 2px;
+  font-family: calibri;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 50px;
+  border-color: #f4f7ff;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+  z-index: 1;
+  margin-bottom:40px;
+}
+
+
+h2{
+  text-align: center;
+  color: blue;
+  align-items: center;
+
+}
+
+p{
+  text-align: center;
+  align-items: center;
+}
+
+
+.img{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  text-align: center;
+
+}
+
+
+.menu{
+  display: flex;
+}
+.menu li a{
+  padding: 10px 15px;
+  color:#6c707c;
+  font-size:
+}
+.menu li a:hover{
+  background-color: #292929;
+  color:#FFFFFF;
+  font-weight: 700;
+  transition: all ease 0.4s;
+}
+.nav a:hover{
+  background-color: #ddd;
+  color:black
+}
+#main{
+width:100%;
+height: 100vh;
+background-color: #edf1fd;
+position: relative;
+background: red;
+}
+
+.cv-btn{
+  width: 200px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: #292929;
+  color:#FFFFFF;
+}
+.contact-section{
+  background:url(me.jpeg)no repeat center;
+  background-size: cover;
+  padding:40px 0;
+}
+.contact-section h1{
+  text-align: center;
+  color:#ddd;
+}
+.border{
+  width:100px;
+  height:10px;
+  background:#34495e;
+  margin: 40px auto;
+}
+.contact-form{
+  max-width:600px;
+  margin:auto;
+  overflow:hidden;
+}
+ .contact-form-text{
+   display:block;
+   width:100%;
+   box-sizing:border-box;
+   margin: 16px 0;
+   border: 0;
+   background: #111;
+   padding:20px 40px;
+   outline: none;
+   color: #ddd;
+   transition: 0.5s;
+  }
+  .contact-form-text:focus{
+    box-shadow: 0 0 10px 4px #34495e;
+  }
+  .textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+  }
+  .contact-form-btn{
+    float: right;
+    border: 0;
+    background:#34495e;
+    color:#fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor:pointer;
+    transition:0.5s;
+  }
+  .contact-form:hover{
+    background:#2980b9;
+  }
+/***Portfolio***/
+.Portfolios{
+  padding: 5% 10%;
+  text-align: center;
+}
+
+.Portfolio_wrapper{
+  display: flex;
+  flex-direction: column;
+}
+.Portfolio_wrapper .Courses_name{
+  display:flex;
+  justify-content: space-between;
+}
+
+.Portfolio_wrapper .Portfolios-1 .Portfolios{
+  margin-bottom:25px;
+}
+
+.Portfolio_wrapper .Portfolios-2 .Portfolios{
+  margin-right: 25px;
+}
+
+.Portfolio_wrapper .Courses_name{
+  width: 30%;
+  height:auto;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+
+.Portfolio_wrapper .Courses_name img{
+  display: block;
+  width: 100%;
+  height:auto;
+  transition: all 0.10s ease;
+}
+
+.Portfolio_wrapper .Courses_name :hover img{
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+aside {
+  background-color: gray;
+  grid-area: aside;
+}
+
+footer {
+   background-color:grey;
+   color: white;
+   grid-area: footer;
+}
