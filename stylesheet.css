@@ -1,6 +1,7 @@
 html{
   background-color: #ffffff;
 }
+
 body{
   background-color: #ffffff;
   padding: 1em;
@@ -61,7 +62,7 @@ h2{
 
 p{
   text-align: center;
-  align-items: center;
+  
 }
 
 
@@ -93,12 +94,19 @@ p{
   background-color: #ddd;
   color:black
 }
-#main{
+
+
+
+main{
 width:100%;
-height: 100vh;
+height: 50vh;
 background-color: #edf1fd;
 position: relative;
-background:gray;
+}
+
+aside {
+  background-color: rgb(231, 218, 218);
+  grid-area: aside;
 }
 
 .cv-btn{
@@ -231,13 +239,12 @@ li{
   
 }
 
-aside {
-  background-color: gray;
-  grid-area: aside;
-}
+
 
 footer {
    background-color:grey;
+   margin-top: 50px;
+   text-align: center;
    color: rgba(255, 255, 255, 0.616);
    grid-area: footer;
 }
