@@ -238,7 +238,7 @@ aside {
 
 footer {
    background-color:grey;
-   color: white;
+   color: rgba(255, 255, 255, 0.616);
    grid-area: footer;
 }
 
