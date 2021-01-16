@@ -6,10 +6,10 @@ html{
     padding: 1em;
     font-family: arial;
     display: flow-root;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 25% 50% 25%;
     grid-auto-rows: auto;
-    grid-template-areas: "header header"
-                         "main aside"
+    grid-template-areas: "header header header"
+                         "main main main"
                          "footer footer"
   }
   

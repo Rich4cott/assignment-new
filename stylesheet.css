@@ -130,7 +130,7 @@ text-transform: uppercase;
 
 }
 .contact-section{
-  background:url(me.jpeg)no repeat center;
+
   background-size: cover;
   padding:40px 0;
 }
@@ -211,16 +211,24 @@ text-transform: uppercase;
   position: relative;
 }
 
+.Courses_name {
+  float: left;
+  justify-content: space-between;
+}
+
+
 .Portfolio_wrapper .Courses_name img{
   display: block;
   width: 100%;
   height:auto;
-  transition: all 0.10s ease;
+  transition: all 0.20s ease;
 }
 
 .Portfolio_wrapper .Courses_name :hover img{
   transform: scale(1.1);
 }
+
+
 
 
 h4{
@@ -249,8 +257,3 @@ footer {
    grid-area: footer;
 }
 
-
-.Courses_name {
-  float: left;
-  justify-content: space-between;
-}
