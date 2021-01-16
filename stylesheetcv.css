@@ -22,6 +22,7 @@ html{
   text-align: center;
   padding: 10px;
   grid-area: header;
+  margin-bottom: 10px;
   }
   
   a {
@@ -53,29 +54,38 @@ html{
   h2{
     text-align: center;
     color: blue;
-    align-items: center;
+    
   
+  }
+
+  h4{
+    text-align: center;
+  }
+
+  li{
+    text-align: center;
+    overflow: hidden;
   }
   
   p{
     text-align: center;
-    align-items: center;
   }
 
   main {
     width:100%;
-    height: 50vh;
-    background-color: gray;
+    background-color: rgb(177, 150, 150);
     grid-area: main;
   }
   
   aside {
-    background-color: gray;
+    background-color: rgb(126, 90, 90);
     grid-area: aside;
   }
   
   footer {
      background-color:grey;
-     color: white;
+     color: rgba(255, 255, 255, 0.616);
+     margin-top: 50px;
      grid-area: footer;
+     text-align: center;
   }
